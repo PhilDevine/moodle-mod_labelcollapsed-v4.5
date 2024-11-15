@@ -1,0 +1,23 @@
+.modtype_labelcollapsed .lc_section {
+    cursor: pointer;
+}
+
+.modtype_labelcollapsed .lc_section span {
+    font-weight: normal;
+}
+
+.modtype_labelcollapsed .lc_section[aria-expanded="true"]::after {
+    transform: rotateZ(90deg);
+}
+
+.modtype_labelcollapsed .lc_section::after {
+    font-family: "FontAwesome";
+    font-weight: 400;
+    font: var(--fa-font-solid);
+    font-size: 25px;
+    position: absolute;
+    margin-left: 8px;
+    color: darkgray;
+    content: "\f0a9";
+    transition: all 0.5s ease;
+}
