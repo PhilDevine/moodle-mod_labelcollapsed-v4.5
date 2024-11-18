@@ -14,3 +14,4 @@
 # This version implements a rotating arrow icon.
 # This version implements Moodle template method.
 # This version includes an updated plugin icon for Moodle 4.5.
+# This version implements inline title editing
